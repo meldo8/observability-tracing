@@ -8,7 +8,6 @@ RUN mkdir -p /srv
 
 ADD main.py /srv
 ADD wsgi.py /srv
-ADD test_perf/locustfile.py /srv
 
 WORKDIR /srv
 
